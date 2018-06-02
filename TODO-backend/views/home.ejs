@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
+	<title>My To-Do List</title>
+	<link rel="SHORTCUT ICON" href="checkbox-icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="ToDo-List.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
-
- <h1>This is a test</h1>
- 
+		<!--- ToDo pattern: <li><span hidden class="btn"><i class="fa fa-trash-alt"></i></span>TASK</li> -->
+	<div class="container" id="todolist">
+		<h1>To-Do List <i class="fa fa-plus"></i></h1>
+		<input type="text" placeholder="New To-Do" hidden><span></span>
+		<ul>
+			<li><span hidden class="btn"><i class="fa fa-trash-alt"></i></span>TASK</li>
+			<li><span hidden class="btn"><i class="fa fa-trash-alt"></i></span>TASK</li>
+			<li><span hidden class="btn"><i class="fa fa-trash-alt"></i></span>TASK</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="ToDo-List.js"></script>
 </body>
 </html>
