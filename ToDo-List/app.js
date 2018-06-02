@@ -6,26 +6,27 @@ app.use(express.static("public"));
 
 //The user class
 class User {
-  constructor(fname,lname,email,password,username){
+  constructor(fname,lname,email,password,username,tasks){
     this.fname = fname;
     this.lname = lname;
     this.email = email;
     this.password = password;
     this.username = username;
-    var tasks = ["test", "test","test"];
+    this.tasks = tasks;
   }
 }
+var taskList = ["test","test"];
 
 app.get("/", function(req, res) {
   res.send("Root page go to /todo for your ToDo-List");
 });
 
 app.get("/todo", function(req, res) {
-  /*
+  /* I have no clue why this does not work
   var user = new User("matt","vast","mvast1@g.com","123","mvast1");
   res.render("home", user);
   */
-  res.render("home", user = new User("matt","vast","mvast1@g.com","123","mvast1"));
+  res.render("home", user = new User("matt","vast","mvast1@g.com","123","mvast1",taskList));
 });
 
 app.get("*", function(req,res) {
