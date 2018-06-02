@@ -12,17 +12,24 @@ class User {
     this.email = email;
     this.password = password;
     this.username = username;
-    var tasks = [];
+    var tasks = ["test", "test","test"];
   }
 }
 
 app.get("/", function(req, res) {
-  var user = new User();
+  res.send("Root page go to /todo for your ToDo-List");
+});
+
+app.get("/todo", function(req, res) {
+  /*
+  var user = new User("matt","vast","mvast1@g.com","123","mvast1");
   res.render("home", user);
+  */
+  res.render("home", user = new User("matt","vast","mvast1@g.com","123","mvast1"));
 });
 
 app.get("*", function(req,res) {
-  res.render("home");
+  res.send("You may be lost: there is noting here")
 });
 
 app.listen(3000);
