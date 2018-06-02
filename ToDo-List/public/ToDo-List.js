@@ -30,7 +30,7 @@ function showTrash () {
 colorlis();
 
 showTrash();
-
+/*
 //event listener for trash
 $("span").on('click', function(event) {
   $(this).parent().fadeOut('500', function() {
@@ -38,7 +38,7 @@ $("span").on('click', function(event) {
 	colorlis();
   });
 });
-
+*/
 //event listener for plus
 $("h1 i").on('click', function(event) {
   $("input").fadeToggle('500', function() {
@@ -50,6 +50,7 @@ $("li").on('click', function(event) {
   $(this).toggleClass('toggleLine-through');;
 });
 
+/*
 //event listener to add an item
 $("input").keypress(function(event) {
   //check for enter
@@ -71,4 +72,4 @@ $("input").keypress(function(event) {
 	});
   }
 });
-
+*/
