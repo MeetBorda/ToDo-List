@@ -23,7 +23,7 @@ of web development. This repository will be updated as new skills are aquired.
 
 
 ## App
-![alt text](https://github.com/MattVastarelli/TODO-WebApp/blob/master/assets/img/todo.PNG)
+![alt text](https://github.com/MattVastarelli/TODO-WebApp/blob/master/assets/img/todohome.PNG)
 
 ## Routes
 ![alt text](https://github.com/MattVastarelli/TODO-WebApp/blob/master/assets/img/rest.PNG)
