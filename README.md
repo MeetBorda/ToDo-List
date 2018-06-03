@@ -1,8 +1,7 @@
 # TODO Front-End Web App
 
 ## About
-Todo-list is a full-stack web application that I am currently working on. This application demonstrates some of the core skills and elements 
-of web development. This repository will be updated as new skills are aquired.
+Todo-list is a full-stack web application that I am currently working on and will be updated as new skills are aquired.
 
 ## Features/Goals
 
