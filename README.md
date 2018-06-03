@@ -17,6 +17,8 @@ of web development. This repository will be updated as new skills are aquired.
   * Sanitize inputs
   * Add a database
   * Add user accounts and authentication
+  * Implemnt RESTful routing
+  * Add addtional forms and pages
 
 
 ## App
