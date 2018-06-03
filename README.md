@@ -3,6 +3,9 @@
 ## About
 Todo-list is a full-stack web application that I am currently working on and will be updated as new skills are aquired.
 
+### Front-End Version
+[Front-End Repository](https://github.com/MattVastarelli/TODO-front-end "Front-End Repository")
+
 ## Features/Goals
 
 * Responsive design
