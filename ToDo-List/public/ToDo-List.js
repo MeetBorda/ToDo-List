@@ -1,4 +1,4 @@
-s/*this will color all the lis in alternating colors*/
+/*this will color all the lis in alternating colors*/
 function colorlis () {
   var lis = $("li");
 
@@ -14,17 +14,17 @@ function colorlis () {
 //--------------------------------------------------------------
 colorlis();
 
-//event listener for trash
-$("span").on('click', function(event) {
- 
-});
-
-//event listener for plus
+//plus event listener
 $("h1 i").on('click', function(event) {
   
 });
 
-//event listener for li
-$("li").on('click', function(event) {
-  $(this).toggleClass('toggleLine-through');;
+//text event listener  
+$(".txt").on('click', function(event) {
+  $(this).toggleClass('toggleLine-through');
+});
+
+//open event listener
+$(".open").on('click', function(event) {
+ 
 });

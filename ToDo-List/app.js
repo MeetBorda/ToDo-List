@@ -15,7 +15,7 @@ class User {
     this.tasks = tasks;
   }
 }
-var taskList = ["test","test"];
+var taskList = ["Task","Task","Task"];
 
 app.get("/", function(req, res) {
   res.send("Root page go to /todo for your ToDo-List");
