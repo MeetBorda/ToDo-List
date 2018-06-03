@@ -4,13 +4,13 @@
 Todo-list is a complete web application that I am currently working on. This application demonstrates some of the core skills and elements 
 of web development. This repository will be updated as new skills are aquired.
 
-## Features
+## Features/Goals
 
 * Responsive design
-* Addition/Deletion of tasks 
+* Addition of tasks 
+* Deletion of tasks
+* Presentation of single task with greater detail i.e. discription, location
 * Strike through of task when the task is clicked on
-* Collapsible text entry that is reviled when the Plus button is selected
-* Trash buttons that only show when an task is hovered over
 
 ## Tasks
   * Transition the fornt-end only app to a full stack web app
@@ -19,6 +19,7 @@ of web development. This repository will be updated as new skills are aquired.
   * Add user accounts and authentication
   * Implemnt RESTful routing
   * Add addtional forms and pages
+  * Add ablity to work with an api
 
 
 ## App
