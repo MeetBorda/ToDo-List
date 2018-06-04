@@ -1,23 +1,31 @@
 # TODO Front-End Web App
 
 ## About
-Todo-list is a complete web application that I am currently working on. This application demonstrates some of the core skills and elements 
-of web development. This repository will be updated as new skills are aquired.
+Todo-list is a full-stack web application that I am currently working on and will be updated as new skills are aquired.
 
-## Features
+### Front-End Version
+[Front-End Repository](https://github.com/MattVastarelli/TODO-front-end "Front-End Repository")
+
+## Features/Goals
 
 * Responsive design
-* Addition/Deletion of tasks 
+* Addition of tasks 
+* Deletion of tasks
+* Presentation of single task with greater detail i.e. discription, location
 * Strike through of task when the task is clicked on
-* Collapsible text entry that is reviled when the Plus button is selected
-* Trash buttons that only show when an task is hovered over
 
 ## Tasks
   * Transition the fornt-end only app to a full stack web app
   * Sanitize inputs
   * Add a database
   * Add user accounts and authentication
+  * Implemnt RESTful routing
+  * Add addtional forms and pages
+  * Add ablity to work with an api
 
 
 ## App
-![alt text](https://github.com/MattVastarelli/TODO-WebApp/blob/master/assets/img/todo.PNG)
+![alt text](https://github.com/MattVastarelli/TODO-WebApp/blob/master/assets/img/todohome.PNG)
+
+## Routes
+![alt text](https://github.com/MattVastarelli/TODO-WebApp/blob/master/assets/img/rest.PNG)

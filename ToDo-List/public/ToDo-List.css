@@ -32,25 +32,10 @@ li {
 	height: 30px;
 	font-size: 12pt;
 	padding-top: 12px;
-	text-indent: 15px;
 }
 /* plus sign */
 h1 i {
 	margin-left: 220px;
-}
-/* trash can */
-span i {
-	color: #eeeeee;
-}
-.btn {
-	background-color: #f44336;
-	padding-top: 12px;
-	padding-bottom: 11px;
-	padding-left: 6px;
-	padding-right: 6px;
-	margin-right: 12px;
-	margin-left: 0px;
-
 }
 
 html {
@@ -64,16 +49,8 @@ html {
 	text-decoration: line-through;
 }
 
-input {
-	background-color: #eeeeee;
-	height: 35px;
-	width: 404px;
-	margin-left: 5px;
-	margin-bottom: 5px;
-	margin-right: 5px;
-	border: none;
-	font-size: 12pt;
-	color: #1976d2;
+.open {
+	padding-right: 10px;
 	padding-left: 10px;
-	outline: none;
 }
+
