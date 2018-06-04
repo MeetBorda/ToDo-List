@@ -4,17 +4,6 @@ var app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-//The user class
-class User {
-  constructor(fname,lname,email,password,username,tasks){
-    this.fname = fname;
-    this.lname = lname;
-    this.email = email;
-    this.password = password;
-    this.username = username;
-    this.tasks = tasks;
-  }
-}
 var taskList = ["test","test"];
 
 app.get("/", function(req, res) {
@@ -22,11 +11,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/todo", function(req, res) {
-  /* I have no clue why this does not work
-  var user = new User("matt","vast","mvast1@g.com","123","mvast1");
-  res.render("home", user);
-  */
-  res.render("home", user = new User("matt","vast","mvast1@g.com","123","mvast1",taskList));
+  res.render("home", taskList);
 });
 
 app.get("*", function(req,res) {
