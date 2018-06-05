@@ -13,8 +13,8 @@
 	<div class="container" id="todolist"> 
 		<h1>To-Do List <i class="fa fa-plus"></i></h1>
 		<ul>
-			<% for(let i = 0, length1 = user.tasks.length; i < length1; i++){ %>
-				<li><span class="open"><i class="fas fa-external-link-alt"></i></span><span class="txt"><%= tasks[i] %></span></li>
+			<% for(let i = 0, length1 = taskList.length; i < length1; i++){ %>
+				<li><span class="open"><i class="fas fa-external-link-alt"></i></span><span class="txt"><%= taskList[i] %></span></li>
 			<% } %>
 		</ul>
 	</div>
