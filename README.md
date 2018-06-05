@@ -1,4 +1,4 @@
-# TODO Front-End Web App
+# TODO Web App
 
 ## About
 Todo-list is a full-stack web application that I am currently working on and will be updated as new skills are aquired.
