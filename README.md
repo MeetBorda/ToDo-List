@@ -12,7 +12,6 @@ Todo-list is a full-stack web application that I am currently working on and wil
 * Addition of tasks 
 * Deletion of tasks
 * Presentation of single task with greater detail i.e. discription, location
-* Strike through of task when the task is clicked on
 
 ## Tasks
   * Transition the fornt-end only app to a full stack web app
@@ -22,6 +21,7 @@ Todo-list is a full-stack web application that I am currently working on and wil
   * Implemnt RESTful routing
   * Add addtional forms and pages
   * Add ablity to work with an api
+  * Deploy
 
 
 ## App
